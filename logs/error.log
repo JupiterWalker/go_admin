@@ -1,0 +1,129 @@
+2021-09-13T19:01:32.567+0800	[31mERROR[0m	controller/new.go:118	insert data error: Error 1366: Incorrect integer value: '' for column 'id' at row 1
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-09-13T19:02:03.783+0800	[31mERROR[0m	controller/new.go:118	insert data error: Error 1366: Incorrect integer value: '' for column 'id' at row 1
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
+2021-09-13T19:02:27.670+0800	[31mERROR[0m	controller/new.go:118	insert data error: Error 1366: Incorrect integer value: '' for column 'id' at row 1
+github.com/GoAdminGroup/go-admin/modules/logger.Error
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/logger/logger.go:285
+github.com/GoAdminGroup/go-admin/plugins/admin/controller.(*Handler).NewForm
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/controller/new.go:118
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).NewForm
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/new.go:121
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard.(*Guard).CheckPrefix
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/modules/guard/guard.go:51
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/modules/auth.(*Invoker).Middleware.func1
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/modules/auth/middleware.go:132
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/plugins/admin.(*Admin).globalErrorHandler
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/plugins/admin/router.go:106
+github.com/GoAdminGroup/go-admin/context.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/context/context.go:101
+github.com/GoAdminGroup/go-admin/adapter/gin.(*Gin).AddHandler.func1
+	/Users/cwang14/go/pkg/mod/github.com/!go!admin!group/go-admin@v1.2.23/adapter/gin/gin.go:91
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/recovery.go:99
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/logger.go:241
+github.com/gin-gonic/gin.(*Context).Next
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/context.go:165
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:489
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/Users/cwang14/go/pkg/mod/github.com/gin-gonic/gin@v1.7.4/gin.go:445
+net/http.serverHandler.ServeHTTP
+	/usr/local/go/src/net/http/server.go:2878
+net/http.(*conn).serve
+	/usr/local/go/src/net/http/server.go:1929
